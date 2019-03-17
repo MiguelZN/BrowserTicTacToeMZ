@@ -1,0 +1,59 @@
+html{
+	background-color: rgb(16, 154, 239);
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+div{
+	height: 100%;
+	width: 100%;
+}
+
+/*Place in parent and all the children will be placed in center of parent*/
+.CENTER{
+	text-align: center;
+}
+
+.FONT1{
+	font-size: 50px;
+	color: rgb(0,0,0);
+}
+
+/*Places on the next line */
+.NEXTCENTER{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#titlesection{
+	background-color: rgb(196, 196, 196);
+	width: 100%;
+	height: 20%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-style: groove;
+	text-align: center;
+}
+
+#holdgame{
+	margin-top: 1%;
+	width: 30%;
+	height: 50%;
+	background-color: rgb(250,250,250);
+}
+
+/*TICTACTOE BOXES*/
+.SQUARE{
+	background-color: rgb(75,75,75);
+	text-align: center;
+	font-size: 50%;
+
+}
+

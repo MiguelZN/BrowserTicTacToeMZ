@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tictactoe game by Miguel Zavala</title>
+	<link rel="stylesheet" type="text/css" href="tictactoecss.css">
+</head>
+<body>
+
+
+	<div id = "titlesection" class="NEXTCENTER">
+		<p class="FONT1">Miguel's Tic-Tac-Toe Game</p>
+	</div>
+
+	<div id = "holdgame" class="NEXTCENTER">
+
+	</div>
+
+	<!--<div style="height: 50%; width: 100%; background-color: rgb(100,0,0);"  class="NEXTLINE"> </div> </-->
+
+
+
+
+	<!-- FIREBASE </-->
+	<script type="text/javascript" src= "/socket.io/socket.io.js"> </script>
+	<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAthlT9NbEYc7SOHP9bvmG1mYvNg1D5yfQ",
+	    authDomain: "tictactoe1-mzn.firebaseapp.com",
+	    databaseURL: "https://tictactoe1-mzn.firebaseio.com",
+	    projectId: "tictactoe1-mzn",
+	    storageBucket: "tictactoe1-mzn.appspot.com",
+	    messagingSenderId: "596696796114"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script type="text/javascript" src="client.js"></script>
+</body>
+</html>
